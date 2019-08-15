@@ -1,5 +1,5 @@
 
-
+// ["Dopey", "Sad", "Grumpy", "Happy"]
 function dwarfRollCall(dwarves) {
   
   let newArray = [];
