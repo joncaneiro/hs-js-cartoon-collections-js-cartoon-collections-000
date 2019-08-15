@@ -1,3 +1,5 @@
+
+
 function dwarfRollCall(dwarves) {
   
   let newArray = [];
@@ -51,7 +53,7 @@ function findTheCheese (foods) {
   return 'no cheese!';
 }
 
-
+*/
 
 
 
