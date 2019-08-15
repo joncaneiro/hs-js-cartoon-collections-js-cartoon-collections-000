@@ -4,7 +4,7 @@ function dwarfRollCall(dwarves) {
   
   let newArray = [];
   
- for(let i = 0; i < (0.5 * dwarves.length); i++) {
+ for(let i = (0.5 * dwarves.length); i < (0.5 * dwarves.length); i++) {
 
       newArray.push(`${i + 1 + "."} ${dwarves[i]} `);
    }
