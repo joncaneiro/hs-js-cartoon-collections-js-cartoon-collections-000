@@ -54,6 +54,29 @@ function findTheCheese (foods) {
 }
 
 
+function wordsThatStartWithB(words){
+  
+  // I want to go through each element of the array (words)
+  // For each word, find if it starts with a letter b
+  let newArray = [];
+  
+  // RESULT an array of all words that start with b
+  for(let letters of words) {
+    if (letters.startsWith("b")) {
+      newArray.push(letters)
+    }
+  }
+  return newArray
+}
+
+"eric".startsWith("e") // true
+"elephant".startsWith("b") // false
+
+wordsThatStartWithB(['banana', 'joe', 'jane']) // ['banana']
+wordsThatStartWithB(['brian', 'bill', 'prince']) // ['brian', 'bill']
+wordsThatStartWithB(['apple', 'cheddar', 'cucumber']) // []
+
+
 
 
 
